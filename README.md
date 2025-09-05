@@ -15,3 +15,14 @@ A collection of my data analysis projects demonstrating foundational skills in d
 * **Outcome:** Successfully transformed a raw, messy dataset into a structured and clean format, making it ready for reliable analysis.
 
 ---
+## 2. Customer Behavior Analysis & Visualization
+
+* **Tools Used:** Google Sheets, Pivot Tables, Charts
+* **Objective:** To analyze the clean sales data to identify purchasing patterns across different customer segments.
+* **Process:**
+    * Created a Pivot Table to summarize 1000 sales transactions, counting payment method usage for both 'Member' and 'Normal' customer types.
+    * Analyzed the aggregated data to extract a key business insight: Member customers prefer 'Cash', while Normal customers prefer 'Ewallet'.
+    * Designed a stacked column chart to visually communicate this finding in a clear and professional format.
+* **Outcome:** Translated raw data into an actionable business insight, providing a clear view of customer preferences.
+
+---
