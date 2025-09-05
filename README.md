@@ -24,6 +24,10 @@ A collection of my data analysis projects demonstrating foundational skills in d
     * Analyzed the aggregated data to extract a key business insight: Member customers prefer 'Cash', while Normal customers prefer 'Ewallet'.
     * Designed a stacked column chart to visually communicate this finding in a clear and professional format.
 * **Outcome:** Translated raw data into an actionable business insight, providing a clear view of customer preferences.
+* ### Final Visualization:
+<img width="800" height="456" alt="image" src="https://github.com/user-attachments/assets/f8f2fc86-24c1-4c92-8953-b330311461e8" />
+
+
 
 ---
 ## 3. Business Database Querying with SQL
