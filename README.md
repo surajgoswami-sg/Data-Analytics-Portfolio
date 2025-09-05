@@ -26,3 +26,23 @@ A collection of my data analysis projects demonstrating foundational skills in d
 * **Outcome:** Translated raw data into an actionable business insight, providing a clear view of customer preferences.
 
 ---
+## 3. Business Database Querying with SQL
+
+* **Tools Used:** SQL (`SELECT`, `TOP`, `COUNT`, `FROM`, `GROUP BY`, `ORDER BY`)
+* **Objective:** To write foundational SQL queries to retrieve specific information and answer business questions from a sample database.
+* **Process:**
+    * Wrote a `SELECT...FROM...WHERE` query to retrieve a filtered list of customers from a specific country.
+    * Wrote a more advanced query using `COUNT`, `GROUP BY`, and `ORDER BY` to calculate, aggregate, and rank customers by order volume.
+    * Successfully debugged and adapted a query to use the `TOP` clause, which is specific to the SQL Server dialect.
+* **Outcome:** Successfully queried a database to extract key business information, demonstrating an understanding of core SQL commands and syntax. The final query to find the top customers was:
+    ```sql
+    SELECT TOP 5
+        CustomerID,
+        COUNT(OrderID)
+    FROM
+        Orders
+    GROUP BY
+        CustomerID
+    ORDER BY
+        COUNT(OrderID) DESC;
+    ```
